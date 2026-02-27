@@ -43,7 +43,7 @@ public class App {
             int toIndex = to - 1;
 
             if (fromIndex < 0 || fromIndex >= rates.length || toIndex < 0 || toIndex >= rates.length) {
-                System.out.println("\nPlease choose a number from 1 to 6.");
+                System.out.println("\nPlease choose a number from 1 to 6");
                 continue;
             }
             double usd = amount / rates[fromIndex];
@@ -64,4 +64,5 @@ public class App {
         }
         in.close();
     }
+
 }
